@@ -36,6 +36,8 @@ Requirement Fulfillment:
     - CSS files included in its own subdirectory, labelled css.
     - html_images subdirectory has images needed by HTML files, css/css_images has the images the css files   needed.
 
+    - Icons for validation checkers are included in the footer, I tested each file and found no errors.
+
     - I believe this page has informative content, and is decently interesting to browse.
     - There are multiple working links, to external websites or internal html files.
     - There are images in the gallery section, as well as the backgrounds in each file.
