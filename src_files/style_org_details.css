@@ -1,0 +1,134 @@
+/* General body styling */
+body {
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url('images/space-background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    color: #fff; /* Text color */
+}
+
+/* Banner section styling */
+.banner {
+    min-height: 90vh; 
+    background: rgba(0, 0, 0, 0.479); 
+    height: auto;
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+}
+
+/* Logo image styling */
+.logo {
+    width: 250px; 
+    height: auto;
+    margin-bottom: 5px; 
+}
+
+/* Navbar styling */
+.navbar ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+/* Navbar list item styling */
+.navbar ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+/* Navbar link styling */
+.navbar ul li a {
+    max-width: 60vw; 
+    color: #ffdd57; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+/* Navbar link hover effect */
+.navbar ul li a:hover {
+    color: #fff; 
+}
+
+/* Main heading (h1) styling */
+h1 {
+    font-size: 2.5em; 
+    color: #ffdd57; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+    padding-left: 20px; /* Adjust as needed */
+}
+
+
+/* Styles for the content section */
+.content {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Styles for table headings */
+th {
+    background-color: #ffdd57; 
+    color: #333;
+    font-weight: bold; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+/* Styles for table data cells */
+td {
+    padding: 10px; 
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+    background-color: #969292; 
+}
+
+
+
+
+/* Footer section styling */
+footer {
+    min-height: 10vh; 
+    background: rgba(0, 0, 0, 0.479); 
+    padding: 20px; 
+    text-align: center; 
+    color: #ffdd57; 
+    border-top: 2px solid #ffdd57;
+}
+
+.footer-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.footer-links {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.footer-links li a {
+    color: #ffdd57; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.footer-links li a:hover {
+    color: #fff; 
+}
