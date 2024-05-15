@@ -101,7 +101,7 @@ p {
 }
 
 /* Button styling */
-button {
+.button {
     background-color: #ffdd57; 
     border: none; 
     color: #000; 
