@@ -11,76 +11,80 @@ Description: Styles news.html
 
 /* General body styling */
 body {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('css_images/space-background.jpg'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center center; 
-    color: #fff; /* Text color */
+    background-image: url('css_images/space-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    /* Text color */
 }
 
 /* Banner section styling */
 .banner {
-    min-height: 90vh; 
-    background: rgba(0, 0, 0, 0.479); 
+    min-height: 90vh;
+    background: rgba(0, 0, 0, 0.479);
     height: auto;
-    padding: 20px; 
-    text-align: center; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Box shadow for depth */
 }
 
 /* Logo image styling */
 .logo {
-    width: 250px; 
+    width: 250px;
     height: auto;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 /* Navbar styling */
 .navbar ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navbar list item styling */
 .navbar ul li {
-    display: inline; 
-    margin: 0 15px; 
+    display: inline;
+    margin: 0 15px;
 }
 
 /* Navbar link styling */
 .navbar ul li a {
-    max-width: 60vw; 
-    color: #ffdd57; 
-    text-decoration: none; 
+    max-width: 60vw;
+    color: #ffdd57;
+    text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s; 
+    transition: color 0.3s;
 }
 
 /* Navbar link hover effect */
 .navbar ul li a:hover {
-    color: #fff; 
+    color: #fff;
 }
 
 .content {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
-    margin: 20px auto; 
-    max-width: 80vw;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 80vw;
 }
 
 /* Main heading (h1) styling */
 h1 {
-    font-size: 2.5em; 
-    color: #ffdd57; 
+    font-size: 2.5em;
+    color: #ffdd57;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     margin-bottom: 20px;
-    padding-left: 20px; /* Adjust as needed */
+    padding-left: 20px;
+    /* Adjust as needed */
 }
 
 /* Bulleted list styling */
@@ -91,73 +95,79 @@ h1 {
 
 .content ul li {
     margin-bottom: 10px;
-    align-items: center; /* Align items vertically */
+    align-items: center;
+    /* Align items vertically */
 }
 
 /* Content link styling */
 .content ul li a {
-    color: #ffdd57; 
-    text-decoration: none; 
+    color: #ffdd57;
+    text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s; 
+    transition: color 0.3s;
 }
 
 /* Content link hover effect */
 .content ul li a:hover {
-    color: #fff; 
+    color: #fff;
 }
 
 
 /* Bullet point styling*/
 .content ul li:before {
-    content: "\2022"; /* Bullet character */
-    color: #ffdd57; /* Bullet color */
-    font-size: 1.2em; /* Bullet size */
-    margin-right: 10px; /* Adjust spacing between bullet and text */
+    content: "\2022";
+    /* Bullet character */
+    color: #ffdd57;
+    /* Bullet color */
+    font-size: 1.2em;
+    /* Bullet size */
+    margin-right: 10px;
+    /* Adjust spacing between bullet and text */
 }
 
 
 
 /* Paragraph styling */
 p {
-    margin-bottom: 20px; /* Space below paragraphs */
+    margin-bottom: 20px;
+    /* Space below paragraphs */
 }
 
 
 /* Footer section styling */
 footer {
-    min-height: 10vh; 
-    background: rgba(0, 0, 0, 0.479); 
-    padding: 20px; 
-    text-align: center; 
-    color: #ffdd57; 
+    min-height: 10vh;
+    background: rgba(0, 0, 0, 0.479);
+    padding: 20px;
+    text-align: center;
+    color: #ffdd57;
     border-top: 2px solid #ffdd57;
 }
 
 /* Footer content styling */
 .footer-content {
-    max-width: 800px; 
-    margin: 0 auto; 
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Footer link styling */
 .footer-links {
-    list-style: none; 
-    padding: 0; 
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
 
 .footer-links li {
-    display: inline; 
-    margin: 0 10px; 
+    display: inline;
+    margin: 0 10px;
 }
 
 .footer-links li a {
-    color: #ffdd57; 
-    text-decoration: none; 
-    transition: color 0.3s; 
+    color: #ffdd57;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .footer-links li a:hover {
-    color: #fff; 
+    color: #fff;
 }
